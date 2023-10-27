@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laboratorium Terpadu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="col-1">
+    <div id="logo">
+      <img src="Labor.PNG" alt="logo"></img>
+    </div>
+
+    <nav id="articlepop">SAFETY RULES</nav>
+    <ul class="list">
+      <li>CLOTHING </li>
+      <li>FOLLOW INSTRUKCTION</li>
+      <li>DONT EAT OR DRINK</li>
+      <li>CHEMISTRY LAB</li>
+      <li>SAFETY EQUIPMENT</li>
+      <li>READ FIRST</li>
+      <li>MONITOR</li>
+      <li>BE CAREFUL</li>
+      <li>TIDY UP</li>
+      <li>BE RESPONSIBLE</li>
+    </ul>
+  </div>
+
+  </div>
+
+  <div class="col-2">
+    <header class="col-3">
+      <p class="title">GALERI LABORATORIUM</p>
+    </header>
+    <nav class="navigation-menu">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="tentang.html">TENTANG</a></li>
+        <li><a href="galeri.html">GALERI</a></li>
+        <li><a href="bukutamu.html">BUKU TAMU</a></li>
+      </ul>
+    </nav>
+    <main class="content">
+      <article class="article">
+        <div class="gallery">
+          <h2>Galeri</h2>
+          <div class="image">
+            <img src="ruangan.jpg" >
+          </div>
+          <div class="image">
+            <img src="ruangan2.jpg" >
+          </div>
+          <div class="image">
+            <img src="ruangan3.jpg" >
+
+            <div class="gallery2">  
+          </div>
+        </div>
+        <div class="gallery2">
+
+            <div class="image">
+              <img src="lab4.jpg" >
+            </div>
+            <div class="image">
+              <img src="lab5.jpg" >
+            </div>
+            <div class="image">
+              <img src="lab6.jpg" >
+            </div>
+      </article>      
+    </main>
+  </div>
+  <footer>
+    <div class="footertext">
+      <p>&copy; Copyright 2023. All Rights Reserved<br>Laboratorium
+    </div>
+  </footer>
+  <script>
+    function showFooterOnScroll() {
+      var footer = document.querySelector('footer');
+      var scrollPosition = window.scrollY || window.pageYOffset;
+  
+      if (scrollPosition > 1) { 
+        footer.style.display = 'block';
+      } else {
+        footer.style.display = 'none';
+      }
+    }
+    window.addEventListener('scroll', showFooterOnScroll);
+  </script>
+</body>
+</html>

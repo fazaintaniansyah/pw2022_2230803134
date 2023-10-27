@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laboratorium Terpadu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="col-1">
+    <div id="logo">
+      <img src="Labor.PNG" alt="logo"></img>
+    </div>
+
+    <nav id="articlepop" class="judul">SAFETY RULES</nav>
+    <ul class="list">
+      <li>CLOTHING </li>
+      <li>FOLLOW INSTRUKCTION</li>
+      <li>DONT EAT OR DRINK</li>
+      <li>CHEMISTRY LAB</li>
+      <li>SAFETY EQUIPMENT</li>
+      <li>READ FIRST</li>
+      <li>MONITOR</li>
+      <li>BE CAREFUL</li>
+      <li>TIDY UP</li>
+      <li>BE RESPONSIBLE</li>
+    </ul>
+  </div>
+
+  <div class="col-2">
+    <header class="col-3">
+      <p class="title">WELCOME</p>
+      <p class="subtitle">LABORATIRY WITH QUALITY BEYOND YOUR IMAGINATION</p>
+    </header>
+    <nav class="navigation-menu">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="tentang.html">TENTANG</a></li>
+        <li><a href="galeri.html">GALERI</a></li>
+        <li><a href="bukutamu.html">BUKU TAMU</a></li>
+      </ul>
+    </nav>
+    <main class="content">
+      <article class="article">
+        <h2>WE EMPLOY THE LATEST</h2>
+        <H1>TECHNOLOGY & COMPANY</H1>
+        <h3>"YOUR VISION OUR ENGINEERING"</h3>      
+      </article>      
+    </main>
+  </div>
+  <footer>
+    <div class="footertext">
+      <p>&copy; Copyright 2023. All Rights Reserved<br>Laboratorium Terpadu
+    </div>
+  </footer>
+  <script>
+    function showFooterOnScroll() {
+      var footer = document.querySelector('footer');
+      var scrollPosition = window.scrollY || window.pageYOffset;
+  
+      if (scrollPosition > 1) { // Ubah nilai 1 sesuai dengan seberapa jauh pengguna harus scroll sebelum footer muncul
+        footer.style.display = 'block';
+      } else {
+        footer.style.display = 'none';
+      }
+    }
+  
+    // Tambahkan event listener untuk memanggil fungsi saat scroll
+    window.addEventListener('scroll', showFooterOnScroll);
+  </script>
+</body>
+</html>
